@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<img src="images/banner.png" alt="Mobile World Station Banner Image" width="100%">
+
+
+<div class="navbar">
+	<a class="active" href="index.htm">Home</a>
+	<a href="popular_deals.htm">Popular Deals</a>
+	<a href="samsung.htm">Samsung</a>
+	<a href="apple.htm">Apple</a>
+	<a href="accessories.htm">Accessories</a>
+	<a href="coming_soon.htm">Coming Soon</a>
+	<a href="latest_technology.htm">Latest Technology</a>
+	<a href="contact.htm">Contact us</a>
+</div>
+
+
+
+
+<script>
+//Time of day message script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Modified by Neil Wickham
+//Credit must stay intact for use
+var Digital=new Date()
+var hours=Digital.getHours()
+//Configure message below to your own.
+if (hours>=0&&hours<=12) //MESSAGE FOR MORNING (00:00-11:59)
+document.write('<b>Good Morning, welcome to our website.</b>')
+else if (hours>12&&hours<=17) //MESSAGE FOR AFTERNOON (12:01-17:00)
+document.write('<b>Good Afternoon, welcome to our website.</b>')
+else //MESSAGE FOR THE REST OF THE DAY (17:00-23:59)
+document.write('<b>Good Evening, welcome to our website.</b>')
+</script>
+<br>
+<script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 6000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "images/s24.png";
+          images[1] = "images/iphone_16.png";
+          images[2] = "images/pix_8pro.png";
+      </script>
+   </head>
+
+   <body onload = "startTimer()">
+       <img id="img" src="images/pix_8pro.png"/>
+       <button type="button" onclick="displayPreviousImage()">Previous</button>
+       <button type="button" onclick="displayNextImage()">Next</button>
+   </body>
+   
+
+<iframe width="500" height="250" src="https://www.youtube.com/embed/3xqnoCkuEwQ" title="MWC 2024: Top mobile innovations at tech show | Tech It Out | WION" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p></p>
+
+<p>Mobile World Station is made for you the customer to find the best phone deals as well as accessories for them! We attempt to make finding the phone for you easy by showing you the latest and greatest as well as some of the most popular deals from recent months!</p>
+
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Data Amount</th>
+	<th>Unlimited Texts and Calls?</th>
+	<th>Cost</th>
+	<th>Site</th>
+  </tr>
+  <tr>
+    <td>Vodafone</td>
+    <td>60Gb</td>
+	<td>Yes</td>
+	<td>£10 per month</td>
+	<td><a href="https://www.vodafone.co.uk/sim-only/vodafone-basics?sv1=affiliate&sv_campaign_id=680777&cid=affUK_20_7_P_X_A_J_D_CBU_BAU_Drive_Connexity+Inc._Native_PAYM_NA_NA_BAU_NA_NA_NA__1257_680777&affid=680777&vfadid=1257_680777&sv1=affiliate&sv_campaign_id=680777&gad_source=1&gclid=EAIaIQobChMIv7m4iPeSigMVWJ6DBx2tZgP5EAQYASABEgI-ifD_BwE">Go to site </a>
+  </tr>
+  <tr>
+    <td>iD Mobile</td>
+    <td>70Gb</td>
+    <td>Yes</td>
+	<td>£10 per month</td>
+	<td><a href="https://www.idmobile.co.uk/sim-only-deals?affiliate=Google|New%20-%20Brand%20-%20Sim%20Only|Brand%20-%20Sim%20Only%20Generic&gad_source=1&gclid=EAIaIQobChMIj8_1nviSigMVepVQBh3EYQVLEAAYASAAEgIVd_D_BwE">Go to site </a></td>
+  </tr>
+  <tr>
+    <td>Three</td>
+    <td>Unlimited</td>
+    <td>Yes</td>
+	<td>£20 per month</td>
+	<td><a href="https://www.three.co.uk/sim">Go to site </a></td>
+  </tr>
+  <tr>
+    <td>O2</td>
+    <td>Unlimited</td>
+    <td>Yes</td>
+	<td>£20</td>
+	<td><a href="https://www.o2.co.uk/shop/sim-cards/sim-only-deals">Go to site </a></td>
+  </tr>
+</table>
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #3361ab;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #54e3d0;
+  color: black;
+}
+
+.forum a {
+	float: left;
+	color: green;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  border: 2px solid black;
+  text-align: center;
+   background-color: #a9a9fc;
+  padding: 8px;
+}
+
+</style>
+
+<div class="forum">
+<p> <a href="https://us.community.samsung.com/t5/Samsung-Community/ct-p/us?page=1&tab=recent_topics">Samsung Forum</a></p>
+<p> <a href="https://discussions.apple.com/welcome">Apple Forum</a></p>
+<p> <a href="https://forums.androidcentral.com/">Android Forum</a></p>
+
+</div>
+
+</head>
+
+<body>
+
+</body>
+</html>
